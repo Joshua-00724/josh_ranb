@@ -61,7 +61,7 @@ function Click(x)
 		{
 			win=true;
 			document.getElementById("moves").innerHTML="CONGRATULATIONS\n You have successfully reordered the puzzle numbers in sequential order\nNumber of moves it took to complete:" +Number_of_moves; 
-			if(confirm("Would you like to play again?"))
+			if(confirm("CONGRATULATIONS\n You have successfully reordered the puzzle numbers in sequential order\nNumber of moves it took to complete: " + Number_of_moves + "\nWould you like to play again?"))
 				window.location.reload();
 
 		}
